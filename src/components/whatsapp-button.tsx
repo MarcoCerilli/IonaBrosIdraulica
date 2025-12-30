@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
+import { buttonVariants } from './ui/button';
 
 const WhatsAppIcon = () => (
     <svg
@@ -29,14 +30,12 @@ export function WhatsAppButton() {
       target="_blank" 
       rel="noopener noreferrer"
       aria-label="Contattaci su WhatsApp"
-      className="fixed bottom-6 right-6 z-50"
+      className={cn(
+        buttonVariants({ size: 'icon' }),
+        "fixed bottom-6 right-6 z-50 size-14 rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#128C7E]"
+      )}
     >
-      <Button
-        className="size-14 rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#128C7E]"
-        aria-label="Contattaci su WhatsApp"
-      >
-        <WhatsAppIcon />
-      </Button>
+      <WhatsAppIcon />
     </Link>
   );
 }
