@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
+import { WhatsAppButton } from '@/components/whatsapp-button';
 
 export const metadata: Metadata = {
   title: 'IonaBrosIdraulica | Idraulica Veloce e Affidabile',
@@ -29,6 +30,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <WhatsAppButton />
         <Toaster />
       </body>
     </html>
