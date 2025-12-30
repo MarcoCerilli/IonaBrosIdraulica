@@ -24,14 +24,19 @@ export function WhatsAppButton() {
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
-    <Button
-      asChild
-      className="fixed bottom-6 right-6 z-50 size-14 rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#128C7E]"
+    <Link 
+      href={whatsappLink} 
+      target="_blank" 
+      rel="noopener noreferrer"
       aria-label="Contattaci su WhatsApp"
+      className="fixed bottom-6 right-6 z-50"
     >
-      <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
+      <Button
+        className="size-14 rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#128C7E]"
+        aria-label="Contattaci su WhatsApp"
+      >
         <WhatsAppIcon />
-      </Link>
-    </Button>
+      </Button>
+    </Link>
   );
 }
