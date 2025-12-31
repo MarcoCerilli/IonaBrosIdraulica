@@ -3,73 +3,73 @@
     {
       "id": "hero-plumbing",
       "description": "Un idraulico professionista che lavora sotto un lavandino in una cucina moderna e luminosa.",
-      "imageUrl": "https://images.unsplash.com/photo-1620838883342-ca19cf8448d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwbHVtYmVyJTIwd29ya2luZ3xlbnwwfHx8fDE3NjcwODg3NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/hero-plumbing.jpg",
       "imageHint": "plumber working"
     },
     {
       "id": "analyzer-bg",
       "description": "Una texture di tubi di rame puliti e brillanti.",
-      "imageUrl": "https://images.unsplash.com/photo-1704750660778-db55114fa0fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3BwZXIlMjBwaXBlc3xlbnwwfHx8fDE3NjcxMDYzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/analyzer-bg.jpg",
       "imageHint": "copper pipes"
     },
     {
       "id": "services-bg",
       "description": "Una texture di piastrelle blu pulite e moderne.",
-      "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjbGVhbmluZ3xlbnwwfHx8fDE3NjcxMDYzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/services-bg.jpg",
       "imageHint": "clean background"
     },
     {
       "id": "contact-hero",
       "description": "Una mano che tiene un telefono con l'app dei contatti aperta, su uno sfondo di un furgone di servizio.",
-      "imageUrl": "https://images.unsplash.com/photo-1423666639041-f56000c27a9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzY3MDgzNDUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/contact-hero.jpg",
       "imageHint": "contact us"
     },
     {
       "id": "services-hero",
       "description": "Vista dall'alto di una varietà di attrezzi da idraulico su una superficie di legno scuro.",
-      "imageUrl": "https://images.unsplash.com/photo-1581166418878-11f0dde922c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbHVtYmluZyUyMHRvb2xzfGVufDB8fHx8MTc2NzAzNzA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/services-hero.jpg",
       "imageHint": "plumbing tools"
     },
     {
       "id": "service-leaks",
       "description": "Primo piano di una goccia d'acqua che cade da un rubinetto che perde.",
-      "imageUrl": "https://images.unsplash.com/photo-1669920282671-e2f03e99513f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWFraW5nJTIwZmF1Y2V0fGVufDB8fHx8MTc2NzEwNjM5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/service-leaks.jpg",
       "imageHint": "leaking faucet"
     },
     {
       "id": "service-drains",
       "description": "Un idraulico che utilizza un serpente da idraulico per sbloccare uno scarico.",
-      "imageUrl": "https://images.unsplash.com/photo-1505695715220-3a366d958259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkcmFpbiUyMGNsZWFuaW5nfGVufDB8fHx8MTc2NzEwNjM5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/service-drains.jpg",
       "imageHint": "drain cleaning"
     },
     {
       "id": "service-heater",
       "description": "Un moderno scaldabagno a gas in un locale tecnico pulito.",
-      "imageUrl": "https://images.unsplash.com/photo-1701421047855-d7bafd8d6f69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlciUyMGhlYXRlcnxlbnwwfHx8fDE3NjcwMTQ1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/service-heater.jpg",
       "imageHint": "water heater"
     },
     {
       "id": "service-pipes",
       "description": "Nuove tubature in PVC installate in una parete durante una costruzione.",
-      "imageUrl": "https://images.unsplash.com/photo-1695651832926-66591245a88c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXBlJTIwaW5zdGFsbGF0aW9ufGVufDB8fHx8MTc2NzEwNjM5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/service-pipes.jpg",
       "imageHint": "pipe installation"
     },
     {
       "id": "service-fixtures",
       "description": "Un elegante rubinetto cromato in un bagno moderno.",
-      "imageUrl": "https://images.unsplash.com/photo-1646592491578-01b3053d9053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBmYXVjZXR8ZW58MHx8fHwxNzY3MDUxNTU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/service-fixtures.jpg",
       "imageHint": "modern faucet"
     },
     {
       "id": "service-upgrade",
       "description": "Un bagno completamente ristrutturato con infissi e piastrelle nuove.",
-      "imageUrl": "https://images.unsplash.com/photo-1744869524920-f0efc925b82f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYXRocm9vbSUyMHJlbW9kZWx8ZW58MHx8fHwxNzY3MTA2MzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/service-upgrade.jpg",
       "imageHint": "bathroom remodel"
     },
     {
       "id": "cta-bg",
       "description": "Una texture di gocce d'acqua su una superficie blu.",
-      "imageUrl": "https://images.unsplash.com/photo-1550133730-695473e544be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3YXRlciUyMHRleHR1cmV8ZW58MHx8fHwxNzE2NDAxODAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/cta-bg.jpg",
       "imageHint": "water texture"
     }
   ]
