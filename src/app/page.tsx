@@ -69,15 +69,17 @@ export default function Home() {
 
       <section id="services-overview" className="relative w-full py-16 md:py-24 lg:py-32">
         {servicesOverviewImage && (
-            <Image
-                src={servicesOverviewImage.imageUrl}
-                alt={servicesOverviewImage.description}
-                fill
-                className="object-cover"
-                data-ai-hint={servicesOverviewImage.imageHint}
-            />
+            <div className="absolute inset-0">
+                <Image
+                    src={servicesOverviewImage.imageUrl}
+                    alt={servicesOverviewImage.description}
+                    fill
+                    className="object-cover"
+                    data-ai-hint={servicesOverviewImage.imageHint}
+                />
+                <div className="absolute inset-0 bg-black/60"></div>
+            </div>
         )}
-        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative container z-10 px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
                 <h2 className="font-headline text-3xl font-bold tracking-tight text-white sm:text-4xl">I Nostri Servizi Principali</h2>
