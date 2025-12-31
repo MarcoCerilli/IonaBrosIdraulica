@@ -15,7 +15,7 @@ export function CallToAction() {
           src={ctaImage.imageUrl}
           alt={ctaImage.description}
           fill
-          className="object-cover opacity-5"
+          className="object-cover opacity-10"
           data-ai-hint={ctaImage.imageHint}
         />
       )}
