@@ -3,73 +3,73 @@
     {
       "id": "hero-plumbing",
       "description": "Un idraulico professionista che lavora sotto un lavandino in una cucina moderna e luminosa.",
-      "imageUrl": "/hero-plumbing.jpeg",
+      "imageUrl": "/idraulico1.jpeg",
       "imageHint": "plumber working"
     },
     {
       "id": "analyzer-bg",
       "description": "Una texture di tubi di rame puliti e brillanti.",
-      "imageUrl": "/analyzer-bg.jpeg",
+      "imageUrl": "/idraulico2.jpeg",
       "imageHint": "copper pipes"
     },
     {
       "id": "services-bg",
       "description": "Una texture di piastrelle blu pulite e moderne.",
-      "imageUrl": "/services-bg.jpeg",
+      "imageUrl": "/idraulico3.jpeg",
       "imageHint": "clean background"
     },
     {
       "id": "contact-hero",
       "description": "Una mano che tiene un telefono con l'app dei contatti aperta, su uno sfondo di un furgone di servizio.",
-      "imageUrl": "/contact-hero.jpeg",
+      "imageUrl": "/idraulico4.jpeg",
       "imageHint": "contact us"
     },
     {
       "id": "services-hero",
       "description": "Vista dall'alto di una varietà di attrezzi da idraulico su una superficie di legno scuro.",
-      "imageUrl": "/services-hero.jpeg",
+      "imageUrl": "/idraulico5.jpeg",
       "imageHint": "plumbing tools"
     },
     {
       "id": "service-leaks",
       "description": "Primo piano di una goccia d'acqua che cade da un rubinetto che perde.",
-      "imageUrl": "/service-leaks.jpeg",
+      "imageUrl": "/idraulico6.jpeg",
       "imageHint": "leaking faucet"
     },
     {
       "id": "service-drains",
       "description": "Un idraulico che utilizza un serpente da idraulico per sbloccare uno scarico.",
-      "imageUrl": "/service-drains.jpeg",
+      "imageUrl": "/idraulico7.jpeg",
       "imageHint": "drain cleaning"
     },
     {
       "id": "service-heater",
       "description": "Un moderno scaldabagno a gas in un locale tecnico pulito.",
-      "imageUrl": "/service-heater.jpeg",
+      "imageUrl": "/idraulico8.jpeg",
       "imageHint": "water heater"
     },
     {
       "id": "service-pipes",
       "description": "Nuove tubature in PVC installate in una parete durante una costruzione.",
-      "imageUrl": "/service-pipes.jpeg",
+      "imageUrl": "/idraulico9.jpeg",
       "imageHint": "pipe installation"
     },
     {
       "id": "service-fixtures",
       "description": "Un elegante rubinetto cromato in un bagno moderno.",
-      "imageUrl": "/service-fixtures.jpeg",
+      "imageUrl": "/idraulico10.jpeg",
       "imageHint": "modern faucet"
     },
     {
       "id": "service-upgrade",
       "description": "Un bagno completamente ristrutturato con infissi e piastrelle nuove.",
-      "imageUrl": "/service-upgrade.jpeg",
+      "imageUrl": "/idraulico11.jpeg",
       "imageHint": "bathroom remodel"
     },
     {
       "id": "cta-bg",
       "description": "Una texture di gocce d'acqua su una superficie blu.",
-      "imageUrl": "/cta-bg.jpg",
+      "imageUrl": "/idraulico3.jpeg",
       "imageHint": "water texture"
     }
   ]
