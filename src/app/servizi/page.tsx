@@ -67,6 +67,7 @@ export default function ServicesPage() {
             alt={servicesHeroImage.description}
             fill
             className="object-cover opacity-20"
+            sizes="100vw"
             data-ai-hint={servicesHeroImage.imageHint}
           />
         )}

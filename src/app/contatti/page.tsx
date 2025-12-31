@@ -15,7 +15,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { whatsappNumber } from '@/lib/config';
 
 const contactHeroImage = PlaceHolderImages.find((img) => img.id === 'contact-hero');
-const whatsappLink = `https://wa.me/${whatsappNumber}`;
+const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, '')}`;
+const telLink = `tel:${whatsappNumber.replace(/\s/g, '')}`;
 
 const WhatsAppIcon = () => (
     <svg
@@ -52,6 +53,7 @@ export default function ContactPage() {
                   alt={contactHeroImage.description}
                   fill
                   className="object-cover opacity-20"
+                  sizes="100vw"
                   data-ai-hint={contactHeroImage.imageHint}
               />
           )}
@@ -81,7 +83,7 @@ export default function ContactPage() {
                   <Phone className="size-6 text-primary" /> 
                   <div>
                     <h3 className="font-semibold">Chiamaci</h3>
-                    <a href={`tel:${whatsappNumber}`} className="text-muted-foreground hover:text-primary">{whatsappNumber}</a>
+                    <a href={telLink} className="text-muted-foreground hover:text-primary">{whatsappNumber}</a>
                   </div>
                 </div>
                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-lg border bg-card p-4 transition-colors hover:bg-muted">
