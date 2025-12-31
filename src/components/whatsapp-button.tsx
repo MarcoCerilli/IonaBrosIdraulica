@@ -25,11 +25,9 @@ export function WhatsAppButton() {
       target="_blank" 
       rel="noopener noreferrer"
       aria-label="Contattaci su WhatsApp"
-      className="fixed bottom-6 right-6 z-50 group"
+      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#128C7E]"
     >
-      <div className="flex items-center justify-center size-14 rounded-full bg-[#25D366] text-white shadow-lg transition-transform group-hover:scale-110 group-hover:bg-[#128C7E]">
-        <WhatsAppIcon />
-      </div>
+      <WhatsAppIcon />
     </Link>
   );
 }

@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { Button, buttonVariants } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-bg');
@@ -30,12 +30,12 @@ export function CallToAction() {
           </p>
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-          <Button asChild size="lg">
-            <Link href="/contatti">Richiedi un Preventivo</Link>
-          </Button>
-          <Button asChild variant="secondary" size="lg">
-            <Link href="/servizi">Scopri i nostri Servizi</Link>
-          </Button>
+          <Link href="/contatti" className={buttonVariants({ size: "lg" })}>
+            Richiedi un Preventivo
+          </Link>
+          <Link href="/servizi" className={buttonVariants({ variant: "secondary", size: "lg" })}>
+            Scopri i nostri Servizi
+          </Link>
         </div>
       </div>
     </section>
