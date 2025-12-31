@@ -9,7 +9,6 @@ import { Droplets, Plug, Thermometer } from 'lucide-react';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-plumbing');
 const analyzerImage = PlaceHolderImages.find((img) => img.id === 'analyzer-bg');
-const servicesBgImage = PlaceHolderImages.find((img) => img.id === 'services-bg');
 
 const featuredServices = [
     {
@@ -64,16 +63,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="services-overview" className="relative w-full py-16 md:py-24 lg:py-32">
-        {servicesBgImage && (
-            <Image
-                src={servicesBgImage.imageUrl}
-                alt={servicesBgImage.description}
-                fill
-                className="object-cover opacity-5"
-                data-ai-hint={servicesBgImage.imageHint}
-            />
-        )}
+      <section id="services-overview" className="relative w-full py-16 md:py-24 lg:py-32 bg-secondary/20">
         <div className="relative container z-10 px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
                 <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">I Nostri Servizi Principali</h2>
