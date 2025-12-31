@@ -9,6 +9,8 @@ import { Droplets, Plug, Thermometer } from 'lucide-react';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-plumbing');
 const analyzerImage = PlaceHolderImages.find((img) => img.id === 'analyzer-bg');
+const servicesOverviewImage = PlaceHolderImages.find((img) => img.id === 'services-overview-bg');
+
 
 const featuredServices = [
     {
@@ -42,7 +44,7 @@ export default function Home() {
             priority
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
           <div className="container px-4 md:px-6">
             <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
@@ -63,7 +65,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="services-overview" className="relative w-full py-16 md:py-24 lg:py-32 bg-secondary/20">
+      <section id="services-overview" className="relative w-full py-16 md:py-24 lg:py-32">
+        {servicesOverviewImage && (
+            <Image
+                src={servicesOverviewImage.imageUrl}
+                alt={servicesOverviewImage.description}
+                fill
+                className="object-cover opacity-10"
+                data-ai-hint={servicesOverviewImage.imageHint}
+            />
+        )}
         <div className="relative container z-10 px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
                 <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">I Nostri Servizi Principali</h2>
@@ -73,7 +84,7 @@ export default function Home() {
             </div>
             <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
                 {featuredServices.map((service) => (
-                    <Card key={service.title} className="text-center transition-all hover:shadow-xl hover:-translate-y-1">
+                    <Card key={service.title} className="text-center transition-all hover:shadow-xl hover:-translate-y-1 bg-card/80 backdrop-blur-sm">
                         <CardHeader>
                             <div className="mx-auto flex size-14 items-center justify-center rounded-full bg-secondary">
                                 {service.icon}
