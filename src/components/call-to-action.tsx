@@ -15,7 +15,7 @@ export function CallToAction() {
           src={ctaImage.imageUrl}
           alt={ctaImage.description}
           fill
-          className="object-cover opacity-60"
+          className="object-cover opacity-20"
           data-ai-hint={ctaImage.imageHint}
         />
       )}
@@ -24,7 +24,7 @@ export function CallToAction() {
           <h2 className="font-headline text-3xl font-bold tracking-tighter text-primary sm:text-4xl md:text-5xl">
             Pronto a risolvere i tuoi problemi idraulici?
           </h2>
-          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-[600px] text-gray-200 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Non lasciare che un piccolo problema diventi un grande danno. Contattaci oggi per un preventivo gratuito e senza impegno.
           </p>
         </div>
