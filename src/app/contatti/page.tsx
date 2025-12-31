@@ -12,8 +12,10 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { whatsappNumber } from '@/lib/config';
 
 const contactHeroImage = PlaceHolderImages.find((img) => img.id === 'contact-hero');
+const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
 const WhatsAppIcon = () => (
     <svg
@@ -28,9 +30,6 @@ const WhatsAppIcon = () => (
 );
 
 export default function ContactPage() {
-  // Sostituisci "391234567890" con il tuo numero, completo di prefisso internazionale (es. 39 per l'Italia).
-  const whatsappNumber = '391234567890';
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
   const recipientEmail = 'contact@ionabrosidraulica.com';
 
   const [name, setName] = useState('');
@@ -82,7 +81,7 @@ export default function ContactPage() {
                   <Phone className="size-6 text-primary" /> 
                   <div>
                     <h3 className="font-semibold">Chiamaci</h3>
-                    <a href="tel:123-456-7890" className="text-muted-foreground hover:text-primary">123-456-7890</a>
+                    <a href="tel:+393393433568" className="text-muted-foreground hover:text-primary">123-456-7890</a>
                   </div>
                 </div>
                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-lg border bg-card p-4 transition-colors hover:bg-muted">

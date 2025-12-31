@@ -3,13 +3,15 @@
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { buttonVariants } from './ui/button';
+import { whatsappNumber } from '@/lib/config';
 
 const WhatsAppIcon = () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
-      viewBox="0 0 24 24"
+      viewBox="0 0 24
+      24"
       fill="currentColor"
       className="size-7"
     >
@@ -18,10 +20,6 @@ const WhatsAppIcon = () => (
 );
 
 export function WhatsAppButton() {
-  // ===> INSERISCI QUI IL TUO NUMERO WHATSAPP <===
-  // Sostituisci "391234567890" con il tuo numero, completo di prefisso internazionale (es. 39 per l'Italia).
-  // NON usare il simbolo '+' o spazi.
-  const whatsappNumber = '391234567890';
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (

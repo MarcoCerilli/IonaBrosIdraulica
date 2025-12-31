@@ -98,7 +98,7 @@ export function Header() {
           </AlertDialogDescription>
         </AlertDialogHeader>
         <div className="flex flex-col items-center justify-center gap-4 py-4">
-          <a href="tel:123-456-7890" className="flex items-center gap-3 rounded-lg bg-primary px-6 py-3 text-2xl font-bold text-primary-foreground">
+          <a href="+393393433568" className="flex items-center gap-3 rounded-lg bg-primary px-6 py-3 text-2xl font-bold text-primary-foreground">
             <Phone />
             <span>123-456-7890</span>
           </a>
