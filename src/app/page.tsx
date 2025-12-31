@@ -10,6 +10,7 @@ import { CallToAction } from '@/components/call-to-action';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-plumbing');
 const analyzerImage = PlaceHolderImages.find((img) => img.id === 'analyzer-bg');
+const servicesOverviewImage = PlaceHolderImages.find((img) => img.id === 'services-overview-bg');
 const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-home');
 
 
@@ -66,17 +67,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="services-overview" className="w-full py-16 md:py-24 lg:py-32">
-        <div className="container z-10 px-4 md:px-6">
+      <section id="services-overview" className="relative w-full py-16 md:py-24 lg:py-32">
+        {servicesOverviewImage && (
+            <Image
+                src={servicesOverviewImage.imageUrl}
+                alt={servicesOverviewImage.description}
+                fill
+                className="object-cover"
+                data-ai-hint={servicesOverviewImage.imageHint}
+            />
+        )}
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative container z-10 px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
-                <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">I Nostri Servizi Principali</h2>
-                <p className="mt-4 text-muted-foreground">
+                <h2 className="font-headline text-3xl font-bold tracking-tight text-white sm:text-4xl">I Nostri Servizi Principali</h2>
+                <p className="mt-4 text-gray-300">
                     Dalle emergenze alle installazioni, copriamo ogni tua necessità con professionalità e rapidità.
                 </p>
             </div>
             <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
                 {featuredServices.map((service) => (
-                    <Card key={service.title} className="text-center transition-all hover:shadow-xl hover:-translate-y-1">
+                    <Card key={service.title} className="bg-card/80 backdrop-blur-sm text-center transition-all hover:shadow-xl hover:-translate-y-1">
                         <CardHeader>
                             <div className="mx-auto flex size-14 items-center justify-center rounded-full bg-secondary">
                                 {service.icon}
