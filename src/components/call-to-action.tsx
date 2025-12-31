@@ -13,7 +13,7 @@ export function CallToAction({ image }: { image?: ImagePlaceholder }) {
           src={image.imageUrl}
           alt={image.description}
           fill
-          className="object-cover opacity-20"
+          className="object-cover opacity-30"
           data-ai-hint={image.imageHint}
         />
       )}

@@ -33,28 +33,28 @@
     {
       "id": "service-leaks",
       "description": "Primo piano di una goccia d'acqua che cade da un rubinetto che perde.",
-      "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwbHVtYmVyfGVufDB8fHx8fDE3NjkzODAwMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/perdite.jpg",
       "imageHint": "water drop",
       "objectPosition": "object-center"
     },
     {
       "id": "service-drains",
       "description": "Un idraulico che utilizza un serpente da idraulico per sbloccare uno scarico.",
-      "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwbHVtYmVyfGVufDB8fHx8fDE3NjkzODAwMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/scarico.avif",
       "imageHint": "water drain",
       "objectPosition": "object-center"
     },
     {
       "id": "service-heater",
       "description": "Un moderno scaldabagno a gas in un locale tecnico pulito.",
-      "imageUrl": "https://images.unsplash.com/photo-1596524430615-b46475ddff6e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3<E2><82><AC><E2><82><AC>",
+      "imageUrl": "/scaldabagno.webp",
       "imageHint": "clean pipes",
       "objectPosition": "object-center"
     },
     {
       "id": "service-pipes",
       "description": "Nuove tubature in PVC installate in una parete durante una costruzione.",
-      "imageUrl": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "",
       "imageHint": "copper pipes",
       "objectPosition": "object-center"
     },
@@ -75,7 +75,7 @@
     {
       "id": "service-boiler",
       "description": "Un tecnico controlla una moderna caldaia a condensazione.",
-      "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwbHVtYmVyfGVufDB8fHx8fDE3NjkzODAwMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/caldaia.jpg",
       "imageHint": "boiler room",
       "objectPosition": "object-center"
     },
@@ -102,7 +102,7 @@
     {
       "id": "cta-servizi",
       "description": "Primo piano di tubi di rame lucidi.",
-      "imageUrl": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "/idraulico15.jpeg",
       "imageHint": "copper pipes"
     },
     {
