@@ -113,12 +113,12 @@ export default function ServicesPage() {
               return (
                 <Card key={service.title} className="flex flex-col overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1">
                   {serviceImage && (
-                    <div className="relative h-48 w-full">
+                    <div className="relative h-64 w-full">
                       <Image
                         src={serviceImage.imageUrl}
                         alt={serviceImage.description}
                         fill
-                        className="object-cover"
+                        className="object-cover object-top"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         data-ai-hint={serviceImage.imageHint}
                       />
