@@ -14,9 +14,9 @@
     },
     {
       "id": "services-overview-bg",
-      "description": "Chiave inglese da idraulico su tubature.",
-      "imageUrl": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "plumbing tools"
+      "description": "Idraulico che installa un lavandino in un bagno moderno",
+      "imageUrl": "https://images.unsplash.com/photo-1600047509782-20b3980b4b25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "plumber installing sink"
     },
     {
       "id": "contact-hero",
@@ -34,37 +34,43 @@
       "id": "service-leaks",
       "description": "Primo piano di una goccia d'acqua che cade da un rubinetto che perde.",
       "imageUrl": "/idraulico6.jpeg",
-      "imageHint": "leaking faucet"
+      "imageHint": "leaking faucet",
+      "objectPosition": "object-center"
     },
     {
       "id": "service-drains",
       "description": "Un idraulico che utilizza un serpente da idraulico per sbloccare uno scarico.",
       "imageUrl": "/idraulico7.jpeg",
-      "imageHint": "drain cleaning"
+      "imageHint": "drain cleaning",
+      "objectPosition": "object-center"
     },
     {
       "id": "service-heater",
       "description": "Un moderno scaldabagno a gas in un locale tecnico pulito.",
       "imageUrl": "https://images.unsplash.com/photo-1628537364404-b9b76a3b6a9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlciUyMGhlYXRlcnxlbnwwfHx8fDE3NjkyNTYwODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "water heater"
+      "imageHint": "water heater",
+      "objectPosition": "object-center"
     },
     {
       "id": "service-pipes",
       "description": "Nuove tubature in PVC installate in una parete durante una costruzione.",
       "imageUrl": "/idraulico9.jpeg",
-      "imageHint": "pipe installation"
+      "imageHint": "pipe installation",
+      "objectPosition": "object-center"
     },
     {
       "id": "service-fixtures",
       "description": "Un elegante rubinetto cromato in un bagno moderno.",
       "imageUrl": "/idraulico10.jpeg",
-      "imageHint": "modern faucet"
+      "imageHint": "modern faucet",
+      "objectPosition": "object-bottom"
     },
     {
       "id": "service-upgrade",
       "description": "Un bagno completamente ristrutturato con infissi e piastrelle nuove.",
       "imageUrl": "/idraulico1.jpeg",
-      "imageHint": "bathroom remodel"
+      "imageHint": "bathroom remodel",
+      "objectPosition": "object-bottom"
     },
     {
       "id": "cta-bg",
@@ -76,19 +82,22 @@
       "id": "service-boiler",
       "description": "Un tecnico controlla una moderna caldaia a condensazione.",
       "imageUrl": "https://images.unsplash.com/photo-1588083060419-3c3337BF7863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib2lsZXIlMjByb29tfGVufDB8fHx8fDE3NjkyOTg0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "boiler installation"
+      "imageHint": "boiler installation",
+      "objectPosition": "object-center"
     },
     {
       "id": "service-underfloor-heating",
       "description": "Installazione di tubi per il riscaldamento a pavimento prima della posa del massetto.",
       "imageUrl": "https://images.unsplash.com/photo-1620629524346-73693a7450bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bmRlcmZsb29yJTIwaGVhdGluZ3xlbnwwfHx8fDE3NjkyOTg0NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "underfloor heating"
+      "imageHint": "underfloor heating",
+      "objectPosition": "object-center"
     },
     {
       "id": "service-ac-unit",
       "description": "Unità esterna di un condizionatore d'aria montata su una parete.",
       "imageUrl": "/idraulico1.jpeg",
-      "imageHint": "air conditioner"
+      "imageHint": "air conditioner",
+      "objectPosition": "object-top"
     }
   ]
 }

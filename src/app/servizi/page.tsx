@@ -118,7 +118,7 @@ export default function ServicesPage() {
                         src={serviceImage.imageUrl}
                         alt={serviceImage.description}
                         fill
-                        className="object-cover object-top"
+                        className={`object-cover ${serviceImage.objectPosition || 'object-center'}`}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         data-ai-hint={serviceImage.imageHint}
                       />
