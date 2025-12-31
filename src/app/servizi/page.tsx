@@ -2,6 +2,8 @@ import Image from 'next/image';
 import {
   Construction,
   Droplets,
+  Flame,
+  Layers,
   Plug,
   ShowerHead,
   Thermometer,
@@ -54,6 +56,18 @@ const services = [
     title: 'Aggiornamento Impianti',
     description: 'Modernizziamo il tuo intero impianto idraulico per una maggiore efficienza e affidabilità.',
     imageId: 'service-upgrade'
+  },
+  {
+    icon: <Flame className="size-8 text-primary" />,
+    title: 'Installazione Caldaie',
+    description: 'Installiamo caldaie a condensazione di ultima generazione per massimizzare il risparmio energetico e il comfort.',
+    imageId: 'service-boiler'
+  },
+  {
+    icon: <Layers className="size-8 text-primary" />,
+    title: 'Riscaldamento a Pavimento',
+    description: 'Progettiamo e realizziamo impianti di riscaldamento a pavimento per un calore uniforme e un\'efficienza superiore.',
+    imageId: 'service-underfloor-heating'
   },
 ];
 
