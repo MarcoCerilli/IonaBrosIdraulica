@@ -32,6 +32,7 @@ import { whatsappNumber } from '@/lib/config';
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/servizi', label: 'Servizi' },
+  { href: '/galleria', label: 'Galleria'},
   { href: '/contatti', label: 'Contatti' },
 ];
 

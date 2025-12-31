@@ -27,7 +27,7 @@
     {
       "id": "services-hero",
       "description": "Vista dall'alto di una varietà di attrezzi da idraulico su una superficie di legno scuro.",
-      "imageUrl": "https://images.unsplash.com/photo-1454988501794-2992f706932e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwbHVtYmluZyUyMHRvb2xzfGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwbHVtYmVyfGVufDB8fHx8fDE3NjkzODAwMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "plumbing tools"
     },
     {
@@ -40,35 +40,35 @@
     {
       "id": "service-drains",
       "description": "Un idraulico che utilizza un serpente da idraulico per sbloccare uno scarico.",
-      "imageUrl": "https://images.unsplash.com/photo-1740487018714-b6204902a255?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YXRlciUyMGRyYWlufGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665590883306-3830f79e6961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YXRlciUyMGRyYWlufGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "water drain",
       "objectPosition": "object-center"
     },
     {
       "id": "service-heater",
       "description": "Un moderno scaldabagno a gas in un locale tecnico pulito.",
-      "imageUrl": "https://images.unsplash.com/photo-1722411487131-23bb3ac91df3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGVhbiUyMHBpcGVzfGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1594072282386-915fadf1a2d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMHBpcGVzfGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "clean pipes",
       "objectPosition": "object-center"
     },
     {
       "id": "service-pipes",
       "description": "Nuove tubature in PVC installate in una parete durante una costruzione.",
-      "imageUrl": "https://images.unsplash.com/photo-1694827893591-af9b80361599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb3BwZXIlMjBwaXBlc3xlbnwwfHx8fDE3NjcxMDYzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1655917081025-c4b563a111ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3BwZXIlMjBwaXBlc3xlbnwwfHx8fDE3NjcxMDYzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "copper pipes",
       "objectPosition": "object-center"
     },
     {
       "id": "service-fixtures",
       "description": "Un elegante rubinetto cromato in un bagno moderno.",
-      "imageUrl": "https://images.unsplash.com/photo-1595515106965-fabf06244e92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBmYXVjZXR8ZW58MHx8fHwxNzY3MTg2NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1646592491489-ebdf758b9d11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBmYXVjZXR8ZW58MHx8fHwxNzY3MTg2NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern faucet",
       "objectPosition": "object-bottom"
     },
     {
       "id": "service-upgrade",
       "description": "Un bagno completamente ristrutturato con infissi e piastrelle nuove.",
-      "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBiYXRocm9vbXxlbnwwfHx8fDE3NjcxMDk2MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBiYXRocm9vbXxlbnwwfHx8fDE3NjcxMDk2MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern bathroom",
       "objectPosition": "object-bottom"
     },
@@ -81,23 +81,61 @@
     {
       "id": "service-boiler",
       "description": "Un tecnico controlla una moderna caldaia a condensazione.",
-      "imageUrl": "https://images.unsplash.com/photo-1706319477893-d56342c42aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib2lsZXIlMjByb29tfGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1689150864856-9bd87d10cd66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Ym9pbGVyJTIwcm9vbXxlbnwwfHx8fDE3NjcxODY3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "boiler room",
       "objectPosition": "object-center"
     },
     {
       "id": "service-underfloor-heating",
       "description": "Installazione di tubi per il riscaldamento a pavimento prima della posa del massetto.",
-      "imageUrl": "https://images.unsplash.com/photo-1664429764866-227d36d8c1a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmbG9vciUyMGhlYXRpbmd8ZW58MHx8fHwxNzY3MTgxODkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1633457027853-106d9bed16ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbG9vciUyMGhlYXRpbmd8ZW58MHx8fHwxNzY3MTgxODkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "floor heating",
       "objectPosition": "object-center"
     },
     {
       "id": "service-ac-unit",
       "description": "Unità esterna di un condizionatore d'aria montata su una parete.",
-      "imageUrl": "https://images.unsplash.com/photo-1726614846573-c1ac2e6161d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhaXIlMjBjb25kaXRpb25lcnxlbnwwfHx8fDE3NjcxMDg3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1718203862467-c33159fdc504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaXIlMjBjb25kaXRpb25lcnxlbnwwfHx8fDE3NjcxMDg3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "air conditioner",
       "objectPosition": "object-top"
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": "gallery-1",
+      "description": "Ristrutturazione completa di un bagno con doccia moderna.",
+      "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBiYXRocm9vbXxlbnwwfHx8fDE3NjcxMDk2MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern bathroom"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Installazione di tubature in rame per un nuovo impianto.",
+      "imageUrl": "https://images.unsplash.com/photo-1694827893591-af9b80361599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb3BwZXIlMjBwaXBlc3xlbnwwfHx8fDE3NjcxMDYzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "copper pipes"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Installazione di un elegante rubinetto cromato in un bagno di design.",
+      "imageUrl": "https://images.unsplash.com/photo-1595515106965-fabf06244e92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBmYXVjZXR8ZW58MHx8fHwxNzY3MTg2NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern faucet"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Tecnico al lavoro su una caldaia a condensazione ad alta efficienza.",
+      "imageUrl": "https://images.unsplash.com/photo-1706319477893-d56342c42aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib2lsZXIlMjByb29tfGVufDB8fHx8MTc2NzE4NjczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "boiler room"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Posa di un impianto di riscaldamento a pavimento.",
+      "imageUrl": "https://images.unsplash.com/photo-1664429764866-227d36d8c1a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmbG9vciUyMGhlYXRpbmd8ZW58MHx8fHwxNzY3MTgxODkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floor heating"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Installazione dell'unità esterna di un climatizzatore.",
+      "imageUrl": "https://images.unsplash.com/photo-1726614846573-c1ac2e6161d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhaXIlMjBjb25kaXRpb25lcnxlbnwwfHx8fDE3NjcxMDg3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "air conditioner"
     }
   ]
 }
