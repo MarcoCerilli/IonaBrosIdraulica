@@ -31,36 +31,35 @@ const featuredServices = [
 export default function Home() {
   return (
     <>
-      <section className="w-full bg-secondary/50 py-20 md:py-32 lg:py-40">
-        <div className="container grid items-center gap-12 px-4 md:grid-cols-2 md:px-6 lg:gap-20">
-          <div className="flex flex-col items-start space-y-6">
-            <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-              Problemi Idraulici? Risolti.
-            </h1>
-            <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
-              Servizi idraulici veloci, affidabili e professionali. La tua emergenza è la nostra priorità.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link href="/servizi">
-                <Button size="lg">Scopri i Nostri Servizi</Button>
-              </Link>
-              <Link href="/contatti">
-                <Button size="lg" variant="secondary">Richiedi un Preventivo</Button>
-              </Link>
+      <section className="relative w-full h-[60vh] min-h-[400px] md:h-[70vh]">
+        {heroImage && (
+          <Image
+            src={heroImage.imageUrl}
+            alt={heroImage.description}
+            fill
+            className="object-cover object-center"
+            data-ai-hint={heroImage.imageHint}
+            priority
+          />
+        )}
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
+            <div className="container px-4 md:px-6">
+                <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+                  Problemi Idraulici? Risolti.
+                </h1>
+                <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-200 md:text-xl">
+                  Servizi idraulici veloci, affidabili e professionali. La tua emergenza è la nostra priorità.
+                </p>
+                <div className="mt-8 flex flex-wrap justify-center gap-4">
+                  <Link href="/servizi">
+                    <Button size="lg">Scopri i Nostri Servizi</Button>
+                  </Link>
+                  <Link href="/contatti">
+                    <Button size="lg" variant="secondary">Richiedi un Preventivo</Button>
+                  </Link>
+                </div>
             </div>
-          </div>
-          <div className="relative h-full min-h-[300px] w-full lg:min-h-[400px]">
-            {heroImage && (
-              <Image
-                src={heroImage.imageUrl}
-                alt={heroImage.description}
-                fill
-                className="rounded-xl object-cover shadow-xl"
-                data-ai-hint={heroImage.imageHint}
-                priority
-              />
-            )}
-          </div>
         </div>
       </section>
 
