@@ -46,27 +46,29 @@ export default function ContactPage() {
   
   return (
     <>
-      <section className="relative h-[40vh] min-h-[300px] w-full bg-primary">
-          {contactHeroImage && (
-              <Image
-                  src={contactHeroImage.imageUrl}
-                  alt={contactHeroImage.description}
-                  fill
-                  className="object-cover opacity-20"
-                  sizes="100vw"
-                  data-ai-hint={contactHeroImage.imageHint}
-              />
-          )}
-          <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-primary-foreground">
-              <div className="container px-4 md:px-6">
-                  <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl">
-                      Contattaci
-                  </h1>
-                  <p className="mx-auto mt-4 max-w-[700px] text-lg text-primary-foreground/80">
-                      Siamo pronti ad aiutarti. Compila il modulo o chiamaci direttamente.
-                  </p>
-              </div>
-          </div>
+      <section className="w-full bg-secondary/50 py-20 md:py-32">
+        <div className="container grid items-center gap-12 px-4 md:grid-cols-2 md:px-6 lg:gap-20">
+            <div className="flex flex-col items-start space-y-6">
+                <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
+                    Contattaci
+                </h1>
+                <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
+                    Siamo pronti ad aiutarti. Compila il modulo o chiamaci direttamente. Per emergenze, siamo disponibili 24/7.
+                </p>
+            </div>
+            <div className="relative h-full min-h-[300px] w-full lg:min-h-[400px]">
+              {contactHeroImage && (
+                  <Image
+                      src={contactHeroImage.imageUrl}
+                      alt={contactHeroImage.description}
+                      fill
+                      className="rounded-xl object-cover shadow-xl"
+                      data-ai-hint={contactHeroImage.imageHint}
+                      priority
+                  />
+              )}
+            </div>
+        </div>
       </section>
 
       <section id="contact" className="w-full py-12 md:py-24 lg:py-32">
