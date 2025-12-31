@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { GalleryImages } from '@/lib/placeholder-images';
+import { GalleryImages, PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Carousel,
@@ -10,6 +10,9 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import { CallToAction } from '@/components/call-to-action';
+
+const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-galleria');
 
 export default function GalleryPage() {
   return (
@@ -65,6 +68,7 @@ export default function GalleryPage() {
           </Carousel>
         </div>
       </section>
+      <CallToAction image={ctaImage} />
     </>
   );
 }

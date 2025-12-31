@@ -19,8 +19,11 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { CallToAction } from '@/components/call-to-action';
 
 const servicesHeroImage = PlaceHolderImages.find((img) => img.id === 'services-hero');
+const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-servizi');
+
 
 const services = [
   {
@@ -141,6 +144,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+      <CallToAction image={ctaImage} />
     </>
   );
 }

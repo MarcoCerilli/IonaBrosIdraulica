@@ -4,7 +4,6 @@ import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { WhatsAppButton } from '@/components/whatsapp-button';
-import { CallToAction } from '@/components/call-to-action';
 
 export const metadata: Metadata = {
   title: 'IonaBrosIdraulica | Idraulica Veloce e Affidabile',
@@ -29,7 +28,6 @@ export default function RootLayout({
           <main className="flex-1">
             {children}
           </main>
-          <CallToAction />
           <Footer />
         </div>
         <WhatsAppButton />

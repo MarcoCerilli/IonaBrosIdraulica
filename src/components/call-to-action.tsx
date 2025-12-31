@@ -1,23 +1,20 @@
-
 'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button, buttonVariants } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Button } from '@/components/ui/button';
+import type { ImagePlaceholder } from '@/lib/placeholder-images';
 
-const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-bg');
-
-export function CallToAction() {
+export function CallToAction({ image }: { image?: ImagePlaceholder }) {
   return (
-    <section className="relative w-full overflow-hidden py-16 md:py-24 lg:py-32">
-      {ctaImage && (
+    <section className="relative w-full overflow-hidden bg-background py-16 md:py-24 lg:py-32">
+      {image && (
         <Image
-          src={ctaImage.imageUrl}
-          alt={ctaImage.description}
+          src={image.imageUrl}
+          alt={image.description}
           fill
           className="object-cover opacity-20"
-          data-ai-hint={ctaImage.imageHint}
+          data-ai-hint={image.imageHint}
         />
       )}
       <div className="container relative z-10 grid items-center justify-center gap-4 px-4 text-center md:px-6">
@@ -29,12 +26,16 @@ export function CallToAction() {
             Non lasciare che un piccolo problema diventi un grande danno. Contattaci oggi per un preventivo gratuito e senza impegno.
           </p>
         </div>
-        <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-          <Link href="/contatti" className={buttonVariants({ size: "lg" })}>
-            Richiedi un Preventivo
+        <div className="flex flex-col justify-center gap-2 min-[400px]:flex-row">
+          <Link href="/contatti">
+            <Button size="lg">
+              Richiedi un Preventivo
+            </Button>
           </Link>
-          <Link href="/servizi" className={buttonVariants({ variant: "secondary", size: "lg" })}>
-            Scopri i nostri Servizi
+          <Link href="/servizi">
+            <Button variant="secondary" size="lg">
+              Scopri i nostri Servizi
+            </Button>
           </Link>
         </div>
       </div>

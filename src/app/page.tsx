@@ -6,9 +6,12 @@ import { AIssueAnalyzer } from '@/components/ai-issue-analyzer';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Droplets, Plug, Thermometer } from 'lucide-react';
+import { CallToAction } from '@/components/call-to-action';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-plumbing');
 const analyzerImage = PlaceHolderImages.find((img) => img.id === 'analyzer-bg');
+const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-home');
+
 
 const featuredServices = [
     {
@@ -115,6 +118,7 @@ export default function Home() {
           <AIssueAnalyzer />
         </div>
       </section>
+      <CallToAction image={ctaImage} />
     </>
   );
 }

@@ -13,8 +13,10 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { whatsappNumber } from '@/lib/config';
+import { CallToAction } from '@/components/call-to-action';
 
 const contactHeroImage = PlaceHolderImages.find((img) => img.id === 'contact-hero');
+const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-contatti');
 const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, '')}`;
 const telLink = `tel:${whatsappNumber.replace(/\s/g, '')}`;
 
@@ -133,6 +135,7 @@ export default function ContactPage() {
           </Card>
         </div>
       </section>
+      <CallToAction image={ctaImage} />
     </>
   );
 }
