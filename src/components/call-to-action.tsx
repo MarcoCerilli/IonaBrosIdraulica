@@ -9,13 +9,13 @@ const ctaImage = PlaceHolderImages.find((img) => img.id === 'cta-bg');
 
 export function CallToAction() {
   return (
-    <section className="relative w-full overflow-hidden bg-primary/5 py-16 md:py-24 lg:py-32">
+    <section className="relative w-full overflow-hidden py-16 md:py-24 lg:py-32">
       {ctaImage && (
         <Image
           src={ctaImage.imageUrl}
           alt={ctaImage.description}
           fill
-          className="object-cover opacity-10"
+          className="object-contain opacity-10"
           data-ai-hint={ctaImage.imageHint}
         />
       )}
