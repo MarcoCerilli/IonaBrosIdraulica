@@ -69,7 +69,7 @@ export default function Home() {
                 src={servicesBgImage.imageUrl}
                 alt={servicesBgImage.description}
                 fill
-                className="object-cover opacity-10"
+                className="object-cover opacity-20"
                 data-ai-hint={servicesBgImage.imageHint}
             />
         )}

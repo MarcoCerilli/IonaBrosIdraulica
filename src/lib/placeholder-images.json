@@ -8,20 +8,20 @@
     },
     {
       "id": "analyzer-bg",
-      "description": "Una texture di tubi di rame puliti e brillanti.",
-      "imageUrl": "https://images.unsplash.com/photo-1642229407351-7473e9482a94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb3BwZXIlMjBwaXBlc3xlbnwwfHx8fDE3NjcxMDYzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "copper pipes"
+      "description": "Spruzzi d'acqua chiari e dinamici su uno sfondo scuro.",
+      "imageUrl": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGRhcmslMjB3YXRlcnxlbnwwfHx8fDE3NjcxODM1MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water splash"
     },
     {
       "id": "services-bg",
-      "description": "Una texture di piastrelle blu pulite e moderne.",
-      "imageUrl": "https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGVhbiUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY3MTcyNDI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "clean background"
+      "description": "Una serie di attrezzi da idraulico professionali disposti ordinatamente su una superficie di legno.",
+      "imageUrl": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwbHVtYmluZyUyMHRvb2xzfGVufDB8fHx8MTc2NzE4Mzk2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plumbing tools"
     },
     {
       "id": "contact-hero",
       "description": "Una mano che tiene un telefono con l'app dei contatti aperta, su uno sfondo di un furgone di servizio.",
-      "imageUrl": "https://images.unsplash.com/photo-1587560699334-bea93391dcef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzY3MDgzNDUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/idraulico4.jpeg",
       "imageHint": "contact us"
     },
     {
