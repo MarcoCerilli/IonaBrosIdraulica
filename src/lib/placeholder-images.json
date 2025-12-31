@@ -68,14 +68,14 @@
     },
     {
       "id": "cta-bg",
-      "description": "Una texture di gocce d'acqua su una superficie blu.",
-      "imageUrl": "/idraulico3.jpeg",
-      "imageHint": "water texture"
+      "description": "Attrezzi da idraulico professionali disposti su uno sfondo scuro.",
+      "imageUrl": "https://images.unsplash.com/photo-1557925335-d5a3c1a26b6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "plumbing tools"
     },
     {
       "id": "service-boiler",
       "description": "Un tecnico controlla una moderna caldaia a condensazione.",
-      "imageUrl": "https://images.unsplash.com/photo-1588083060419-3c3337BF7863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib2lsZXIlMjByb29tfGVufDB8fHx8MTc2OTI5ODQxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1588083060419-3c3337BF7863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib2lsZXIlMjByb29tfGVufDB8fHx8fDE3NjkyOTg0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "boiler installation"
     },
     {
