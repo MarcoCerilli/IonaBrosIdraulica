@@ -89,7 +89,7 @@
     {
       "id": "service-ac-unit",
       "description": "Unità esterna di un condizionatore d'aria montata su una parete.",
-      "imageUrl": "/idraulico8.png",
+      "imageUrl": "/idraulico8.jpeg",
       "imageHint": "air conditioner",
       "objectPosition": "object-top"
     },
