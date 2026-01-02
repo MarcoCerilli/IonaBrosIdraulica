@@ -27,8 +27,8 @@ const featuredServices = [
     },
     {
       icon: <Thermometer className="size-8 text-primary" />,
-      title: 'Servizio Scaldabagni',
-      description: 'Riparazione e installazione per tutti i tipi di scaldabagni, per garantirti sempre acqua calda.',
+      title: 'Servizio Caldaie',
+      description: 'Riparazione e installazione per tutti i tipi di caldaie, per garantirti sempre acqua calda.',
     },
 ];
 
