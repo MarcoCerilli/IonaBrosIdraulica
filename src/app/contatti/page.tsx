@@ -33,7 +33,7 @@ const WhatsAppIcon = () => (
 );
 
 export default function ContactPage() {
-  const recipientEmail = 'contact@ionabrosidraulica.com';
+  const recipientEmail = 'ionabrosimpianti@gmail.com';
 
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
