@@ -87,11 +87,13 @@ export function Header() {
   const emergencyButton = (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
-          <AlertTriangle className="mr-2 size-4" />
-          Contattaci Subito Per Intervento
-        </Button>
-      </AlertDialogTrigger>
+      <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
+        <AlertTriangle className="mr-2 size-4" />
+        {/* Nascondi il testo extra su mobile e mostralo solo da tablet in su */}
+        <span className="hidden sm:inline">Contattaci Subito Per Intervento</span>
+        <span className="sm:hidden">Emergenza</span>
+      </Button>
+    </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>Emergenza Idraulica?</AlertDialogTitle>
