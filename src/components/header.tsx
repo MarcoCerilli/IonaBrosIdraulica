@@ -89,7 +89,7 @@ export function Header() {
       <AlertDialogTrigger asChild>
         <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
           <AlertTriangle className="mr-2 size-4" />
-          Pronto Intervento
+          Contattaci Subito Per Intervento
         </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
