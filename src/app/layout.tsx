@@ -6,6 +6,7 @@ import { Footer } from '@/components/footer';
 import { WhatsAppButton } from '@/components/whatsapp-button';
 import { CallToAction } from '@/components/call-to-action';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { CookieBanner } from '@/components/cookie-banner';
 
 
 export const metadata: Metadata = {
@@ -34,6 +35,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <WhatsAppButton />
+        <CookieBanner />
         <Toaster />
       </body>
     </html>

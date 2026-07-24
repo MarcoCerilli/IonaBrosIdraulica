@@ -7,6 +7,7 @@ import {
   Phone,
   Menu,
 } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { Logo } from '@/components/logo';
 import { Button } from '@/components/ui/button';
 import {
@@ -24,6 +25,7 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
+  SheetTitle,
 } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 import { whatsappNumber } from '@/lib/config';
@@ -64,6 +66,7 @@ export function Header() {
       </Button>
     </SheetTrigger>
     <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+      <SheetTitle className="sr-only">Menu di navigazione</SheetTitle>
       <div className="flex flex-col gap-8 pt-10">
         
         {/* INSERISCI IL LOGO QUI */}
@@ -126,7 +129,12 @@ export function Header() {
   );
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 shadow-sm backdrop-blur-sm">
+    <motion.header 
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/60 shadow-sm backdrop-blur-md"
+    >
       {/* container px-4 e h-16 per dare aria e allineamento perfetto */}
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         
@@ -143,6 +151,6 @@ export function Header() {
           {mobileNav}
         </div>
       </div>
-    </header>
+    </motion.header>
   );
 }
