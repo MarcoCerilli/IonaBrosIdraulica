@@ -52,7 +52,11 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/50 to-black/80" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
             <div className="container px-4 md:px-6">
-              <FadeIn direction="up">
+              <FadeIn direction="up" className="flex flex-col items-center">
+                <div className="mb-6 inline-flex items-center rounded-full border border-white/20 bg-black/40 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-md shadow-lg shadow-black/20">
+                  <span className="flex h-2 w-2 rounded-full bg-accent mr-2 animate-pulse"></span>
+                  IonaBros Impianti Srls
+                </div>
                 <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-lg">
                   Idraulico a Terracina? Risolto.
                 </h1>
